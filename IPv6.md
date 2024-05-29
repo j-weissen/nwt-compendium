@@ -1,9 +1,12 @@
 Nach IPv6 Standard muss nur SLAAC implementiert sein, statische Adressen und DHCPv6 sind optionale Features
-## SLAAC => Client will Adresse
-Client sucht Router => sendet Multicast (Router Solicitation)
-Könnte auch warten, da alle 200s Router eine RA schicken
-RS triggered RA
-RA enthält Prefix (Gateway, linke ~64bit der Adresse, analog zum IPv4 Netz, M/O Flags) bei O weiterhin SLAAC, bei M anders
+
+Netzprefix: die linke ~64bit der Adresse, analog zum IPv4 Netzid
+## SLAAC
+Stateless Address auto-configuration ist das Verfahren, mit welchem IPv6 Clients zu ihrer Adresse kommen. Der Ablauf ist folgender:
+![[slaac.excalidraw]]
+
+Eine Router Solicitation ist ein Multicast vom Client, der alle Router auffordert Router Advertisments zu senden. Theoretisch wäre diese nicht nötig, da Router alle 200s eine RA senden.
+Das RA enthält das Default-Gateway, den Prefix des Netzes und optional die Managed/Other Flags. Diese bestimmen wie weiter verfahren wird. 
 Client bildet Interface ID (EUI64 oder Zufall)
 
 Duplicate Adress Detection (DAD), vergleichbar mit Gratitious ARP

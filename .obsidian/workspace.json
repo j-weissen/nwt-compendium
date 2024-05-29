@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "cdf478c71e2d7e48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IPv6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a958ce176c53eada",
             "type": "leaf",
             "state": {
@@ -47,11 +35,19 @@
             "id": "d95b23b87ee36072",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Themenausarbeitung/2 Switching und Routing.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/multiplexer.png"
+              }
+            }
+          },
+          {
+            "id": "0727c3e4f2d91bb2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/slaac.excalidraw.md"
               }
             }
           },
@@ -129,6 +125,24 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "d429799a4fb577a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdf478c71e2d7e48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IPv6.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Themenausarbeitung/2 Switching und Routing.md",
+                "file": "IPv6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Themenausarbeitung/2 Switching und Routing.md",
+                "file": "IPv6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Themenausarbeitung/2 Switching und Routing.md"
+                "file": "IPv6.md"
               }
             }
           },
@@ -278,8 +292,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d95b23b87ee36072",
+  "active": "cdf478c71e2d7e48",
   "lastOpenFiles": [
+    "Excalidraw/slaac.excalidraw.md",
+    "IPv6.md",
+    "Excalidraw/multiplexer.png",
+    "Themenausarbeitung/2 Switching und Routing.md",
     "Themenausarbeitung/3 Sicherheit und Recht in der IT.md",
     "LACP.md",
     "Untitled.md",
@@ -287,11 +305,9 @@
     "Themenausarbeitung/5 Kommunikationsnetze.md",
     "Themenausarbeitung/6 Kommunikationsdienste.md",
     "NetFlow und sFlow.md",
-    "IPv6.md",
     "Stecker.md",
     "Themenausarbeitung/1 Übertragungsmedien und Netztopologien.md",
     "Dezibel.md",
-    "Themenausarbeitung/2 Switching und Routing.md",
     "Themenausarbeitung/4 Netzwerkmanagement.md",
     "E-Mail.md",
     "Themenausarbeitung",
@@ -303,11 +319,8 @@
     "Monitor oder Mirror Port.md",
     "Immaterialgüterrecht oder Geistiges Eigentum.md",
     "Kabeleigenschaften und Messparameter.md",
-    "Excalidraw/multiplexer.png",
     "Pusch Compendium 18032024.md",
     "IPsec.md",
-    "IP Adressierung.md",
-    "Protokolle/POP3.md",
     "Excalidraw",
     "Protokolle",
     "export/funktionen/funktionen_syntax.png",
