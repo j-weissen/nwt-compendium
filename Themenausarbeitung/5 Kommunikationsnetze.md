@@ -22,6 +22,9 @@ OSI-Modell, aktuelle Kanalqualität, Fehlerkorrektur (FEC), ARQ, hybrides ARQ, A
 Häufig sind Übertragungsnetzwerke ganz oder teilweise als Funkstrecken ausgeführt. Auch das österreichische Bundesheer setzt auf Funktechnik, um vom Ort und von Infrastruktur unabhängig zu sein, um beispielsweise KFOR-Truppen im Ausland verlässlich erreichen zu können, was über kabelgebundene Netzwerke ev. nicht der Fall sein bzw. unterbunden werden könnte. Auch der terrestrische Rundfunk arbeitet funkbasiert. Auf solchen Strecken muss die Übertragung moduliert erfolgen.
 
 AM, FM, warum überträgt man im HF-Bereich, …
+Störungen wirken sich additiv auf die Amplitude und somit bei AM die Informationen aus. FM somit störungsfreier
+86-108MHz FM 
+AM hat dafür höhere Reichweite
 
 ## *PUSC* Beurteilung einer Nachrichtenleitung nach übertragungstechnischen Aspekten.
 Ein TK-Anbieter beabsichtigt einen Netzausbau zur Kapazitätserweiterung vorzunehmen. Davor ist eine Bewertung vorhandener Leitungsinfrastruktur vorzunehmen, wobei es sich um ein Glasfasersystem handeln möge.

@@ -1,0 +1,22 @@
+- Adressierungsarten (MAC, IPv4, IPv6)
+	- MAC Aufbau: Anzahl Byte, Aufteilung Vendor/Lfd Nummer, Multicast, Broadcast, local administrated
+	- IPv4 Adressaufbau, Subnetting/Supernetting, Unicast, Broadcast, Multicast, (ev. auch Anycast (Bsp. DNS)), ev. auch Ausblick zu DHCP
+	- IPv6: Aufbau Adresse, wie geht der Adressbezug (SLAAC) (ND, RA, …) 
+	- Global Unicast vs Link Local (fe80::). Welche Aufgabe hat ICMPv6, Broadcasts? → Multicasts (FF0x::)
+- Switching (Technologien (Store&Forward, Cut Through, Fragment free) , …), L3 Switches
+- VLAN (Trunking, IEEE802.1Q - Frameaufbau)
+- Spanning Tree (BPDU, Root, Arten / Algos, Portfast, ...))
+- Routing (Dyn. Routingprotokolle im Vergleich vs Statisch
+- LAN vs. WAN, Protos
+	- Metriken
+	- Konvergenz
+	- Wegewahl
+	- Link State vs Distance Vector vs. ???
+- NAT (RFC1918, Arten (SNAT, DNAT, PAT, …)      
+- (Buch NWPD.pdf Kap 18.5 und wikipedia)
+- Redundante Netze und Systeme auf OSI L2 und L3
+	- dyn Routing, Spanning Tree, HSRP/VRRP, Active Directory,  Storage, Firewall )
+- Firewalls (FW Zonen, Air Gap?, Arten (IP based, Port Based, Dyn FW, Zone based Zerotrust FW, Technologien, auf was muss beim Betrieb geachtet werden?…)
+	- Arten und Einsatz
+- VPN
+- Priorisierung (L2, L3)
