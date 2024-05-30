@@ -1,0 +1,1 @@
+Trunk/Channel = zwei Leitungen funktionieren wie eine
