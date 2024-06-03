@@ -1,4 +1,4 @@
-- LWL (Arten und Eigenschaften) Begic
+- LWL (Arten und Eigenschaften)
     - Teach_Share: „02 LWL Eigenschaften.pdf“
     - Single(d=9µm) /Multimode(50µm) (Stufenprofil vs Gradientenprofil) Skizze: Modenverlauf!
     - Bandbreiten – Längenprodukt
@@ -10,15 +10,15 @@
     - Kategorien und Klassen – Messparameter (Ohm. Wid, Dämpfung, *NEXT*, ACR, … )
 - Topologien im Vergleich
     - Basis und Erweitere… mit Eigenschaften
-    - Logische und Physikalische Topo.
-- Strukurierte Verkabelung – Gebäudeverkabelung (UGV) Eder  
+    - Logische und Physikalische Topologien
+- Strukurierte Verkabelung – Gebäudeverkabelung (UGV)
     Primär, Sekundär, Tertiär, … Welche Übertragungsmedien, …  
     Power over Ethernet (gängige Standards 802.3af, und at. Auch „Non Standard“ PoE, Wie funktioniert PoE?)
-- WLAN – Technologien – Glavas
+- WLAN – Technologien
     - Begriffe
     - Standards
     - Enterprise vs. Private
     - guggst du Teach_share: „*WLAN*
-- Aktive und Passive Komponenten im LAN – eine Übersicht Hager  
+- Aktive und Passive Komponenten im LAN – eine Übersicht
     Hub, Switch, Router, Firewall, …  
     Kabel, Patchpanele, Keystones, Modularsystem, ... (alles von einem Hersteller (R&M, Daetwyler, Kerpen, Corning, …) oder „Mix and Match“ )
