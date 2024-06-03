@@ -1,0 +1,4 @@
+Das Address Resolution Protocol dient zur Übersetzung von L3- auf L2-Adressen. Eigentlich wird es nur für IPv4 zu Ethernet verwendet, prinzipiell würden auch andere Protokolle unterstützt werden.
+Ein ARP-Request ist ein Broadcast, in dem nach der MAC-Adresse eines Geräts mit einer gewissen IP-Adresse gefragt wird. ("Wer ist 192.168.1.200?") Im Normalfall antwortet das Gerät, welches diese IP-Adresse innehat mit der eigenen MAC-Adresse. Das zu sendende IP-Paket kann nun in einen Ethernet-Frame verpackt und versendet werden.
+Geräte haben einen ARP-Table, welcher IP-MAC-Adressen-Zuordnungen sowie einen Timestamp speichert (=Cache). Im Normalfall sind diese für 300s gültig.
+![[arp.excalidraw]]
