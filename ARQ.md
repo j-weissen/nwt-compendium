@@ -1,0 +1,27 @@
+- Send-and-Wait-Protokolle:
+	- Sender schickt einen Frame, wartet
+	- Erst wenn ACK empfangen wird, wird der nächste gesendet
+	- Bleibt das ACK aus, wird nach einer gewissen Zeit der Frame erneut gesendet
+	- Ein Frame kann mehrfach wiederholt werden
+	- Wird ein Frame öfter als die maximale Wiederholungsanzahl gesendet, wird die Verbindung terminiert
+	- Frames nummeriert, dass Empfänger sie auseinanderhalten kann, falls ACK verloren geht
+	- Empfänger erkennt Übertragungsfehler:
+		- warten oder
+		- NACK senden
+	- Beispiele: WLAN, SMS
+	- Piggy-Backing:
+		- senden die beiden Teilnehmer hin und her, kann das ACK an Frames mit Nutzdaten angehängt werden
+- Selektives ARQ:
+	- Sender schickt N Frames auf einmal
+	- Mit einem ACK können N Frames bestätigt werden, N meist Zweierpotenz
+	- Nummerierung nach Restklassen: Framenummern bis 2N-1
+	- Werden Frames nicht bestätigt, werden sie gleichzeitig mit neuen Frames nochmal gesendet
+	- Beispiele: neue WLAN-Versionen, Daten im Mobilfunk
+- Fensterverfahren
+	- Sender schickt Anzahl an Frames entsprechend der Sendefenstergröße
+	- Empfänger bestätigt den letzten erfolgreich empfangenen Frame (Empfangsfolgenummer N(R))
+	- Sender verschiebt Beginn des Sendefensters auf  N(R)+1 und sendet weiter / erneut
+	- Nur eine ACK mit einer Information, allerdings kann das Wiederholen von korrekt empfangenen Frames nötig sein
+	- Beispiele: Logical Link Control mit Fenstergröße 64, TCP mit variabler Fenstergröße
+- Hybride ARQ
+	- 
