@@ -6,6 +6,13 @@ Für eine Datenapplikation soll eine Quellcodierung durchgeführt werden.
 
 Allgemein, Informationstheorie, Huffman-Code, ……
 
+3I
+2M
+2A
+1X
+1L
+1N
+
 ## *PUSC* Verlustlose Codierung eines Datensatzes
 Für eine Datenapplikation soll eine Quellcodierung mit Hilfe eines wörterbuchbasierten Kompressionsalgorithmus durchgeführt werden. 
 Allgemein, Informationstheorie, Wörterbuchalgorithmen (LZW, …), ……
@@ -29,3 +36,7 @@ SSL/TLS – End-to-End Verschlüsselung –OpenPGP ( GnuPG) – kryptografische 
 Sie haben eine Website entwickelt. Den passenden Webserver zum Hosten und die gewünschte Domain haben sie bereits erworben. Nun möchten sie die Website absichern, also dass die Verbindung zwischen Browser und ihrer Website abgesichert ist.
 
 TLS/SSL, Zertifikate, Chain of Trust, CIA, OSI, Prinzip symmetrisch / assymetrische Verfahren , usw …. 
+
+## *REWO* EMAIL
+
+## *REWO* HTTP
